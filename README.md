@@ -9,7 +9,7 @@ This is a solution to the Sign up project form that is part of <a href="https://
 
 ### Links
 
-- Live Site URL: (<a href="https://medido1.github.io/Project-Sign-Up-Form/" target="blank">Live site</a>
+- Live Site URL: <a href="https://medido1.github.io/Project-Sign-Up-Form/">Live site</a>
 
 
 
