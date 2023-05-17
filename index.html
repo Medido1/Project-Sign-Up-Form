@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Project: Sign-Up Form</title>
+</head>
+<body>
+  <main class="flex_grp">
+    <picture class="img_container">
+      <img src="./img/form_bg.jpg" alt="green leaf plant in close up" class="main_img">
+      <div class="logo_container flex_grp">
+        <img src="./img/odin-lined.png" alt="odin logo" class="odin_logo">
+        <p>ODIN</p>
+      </div>
+      <p class="credit">
+        Photo by 
+        <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a>
+        on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </p>
+    </picture>
+    <section class="form_section">
+      <div class="form_description">
+        <p>This is not a real online service! You know you need something
+          like this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up now to get started.</p>
+        <p>You know you want to.</p>
+      </div>
+      <form action="#" method="post" class="form">
+        <fieldset class="form_container flex_column">
+          <legend class="form_legend">Let's do this!</legend>
+          <div class="flex_grp form_row">
+            <div class="flex_column">
+              <label for="first_name">FIRST NAME</label>
+              <input type="text" name="user_first_name" id="first_name">
+            </div>
+            <div class="flex_column">
+              <label for="last_name">LAST NAME</label>
+              <input type="text" name="user_last_name" id="last_name">
+            </div>
+          </div>
+
+          <div class="flex_grp form_row">
+            <div class="flex_column">
+              <label for="email">EMAIL</label>
+              <input type="email" name="user_email" id="email" placeholder="yourname@email.com">
+            </div>
+            <div class="flex_column">
+              <label for="phone_nmber">PHONE NUMBER</label>
+              <input type="tel" name="user_phone_number" id="phone_nmber">
+            </div>
+          </div>
+
+          <div class="flex_grp form_row">
+            <div class="flex_column">
+              <label for="pwd">PASSWORD</label>
+              <input type="password" name="user_pwd" id="pwd">
+            </div>
+            <div class="flex_column">
+              <label for="pwd_confirmation">CONFIRM PASSWORD</label>
+              <input type="password" name="user_pwd_confirmation" id="pwd_confirmation">
+            </div>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn">Create Account</button>
+      </form>
+      <p class="log_in">
+        Alredy have an account? 
+        <a href="#" class="log_in_link">Log in</a>
+      </p>
+      <p class="creator_credit">Coded by <a href="https://github.com/Medido1" target="_blank">Bousalah Nadir</a></p>
+    </section>
+  </main>
+</body>
+</html>
